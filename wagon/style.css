@@ -1,0 +1,88 @@
+body {
+	background: rgb(238, 238, 238);
+	color: rgb(30, 30, 30);
+}
+
+h1 {
+	color: #182446;
+	font-family: Helvetica;
+	font-weight: 800;
+	letter-spacing: 2px;
+	font-size: 32px;
+	text-transform: uppercase;
+	text-align: center ;
+}
+
+h2 {
+	color: #49597A;
+	font-family: Helvetica;
+	font-size: 25px;
+}
+
+p {
+	color: #49597A;
+	font-size: 18px;
+	font-family: Helvetica;
+}
+
+a {
+	font-size:100px;
+	text-decoration: none;
+	color: #182446;
+	transition:1s;
+}
+a:hover {
+	font-size:150px;
+	color: darkblue;
+	transition:0,5s;
+
+}
+.img-circle {
+	border-radius: 100%;
+}
+
+	#leader {
+		border:2px solid #182446;
+		width: 250px;
+	}
+
+	.card-white {
+		color: rgb(238, 238, 230);
+		padding: 30px;
+		box-shadow: 0px	20px 40px rgba(0, 0, 0, 0.1);
+		border-radius: 4px;
+		margin: 30px 10px;
+		text-align: center;
+	}
+
+	.container {
+	 	width: 700pc;
+	 	margin: 0px auto;
+		
+	}
+
+	@media (max-width: 500px) {
+
+		.container {
+			width: 400px;
+		}
+	}
+
+	@media (max-width: 760px) {
+		.container {
+			width: 600px;
+	   }
+	}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+
